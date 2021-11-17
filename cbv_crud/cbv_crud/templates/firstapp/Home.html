@@ -1,0 +1,19 @@
+{% extends 'firstapp/prod.html' %}
+
+
+
+{% block title %}
+    <title>Home </title>
+{% endblock %}
+
+
+
+{% block content %}
+
+
+<h1><center>CLASS BASED GENERIC VIEW</center></h1>
+<h2>Click the button below to see Computers List</h2>
+
+<a href="{% url 'allprods' %}"><button type="button" class="btn btn-primary">CLICK ME</button></a>
+
+{% endblock %}
